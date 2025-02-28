@@ -1,17 +1,127 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo</title>
+        <title></title>
         <subtitle></subtitle>
         <icon>http://aura-hy.github.io/images/favicon.ico</icon>
         <link>http://Aura-HY.github.io</link>
         <author>
-          <name>John Doe</name>
+          <name>Aura-hy</name>
         </author>
         <description></description>
         <language>en</language>
-        <pubDate>Tue, 25 Feb 2025 23:25:03 +0800</pubDate>
-        <lastBuildDate>Tue, 25 Feb 2025 23:25:03 +0800</lastBuildDate>
+        <pubDate>Fri, 28 Feb 2025 13:53:12 +0800</pubDate>
+        <lastBuildDate>Fri, 28 Feb 2025 13:53:12 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://aura-hy.github.io/2025/02/28/tools/Git%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8EVS%E7%9A%84%E5%9B%BE%E5%BD%A2%E5%8C%96%E4%BD%BF%E7%94%A8/</guid>
+            <title>Use Git</title>
+            <link>http://aura-hy.github.io/2025/02/28/tools/Git%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8EVS%E7%9A%84%E5%9B%BE%E5%BD%A2%E5%8C%96%E4%BD%BF%E7%94%A8/</link>
+            <category term="工具使用" scheme="http://aura-hy.github.io/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" />
+            <pubDate>Fri, 28 Feb 2025 13:53:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;git-使用图形化简单教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-使用图形化简单教程&#34;&gt;#&lt;/a&gt; Git 使用图形化简单教程&lt;/h1&gt;
+&lt;h2 id=&#34;git-配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-配置&#34;&gt;#&lt;/a&gt; Git 配置&lt;/h2&gt;
+&lt;p&gt;配置文件路径一般在：用户 / 你的用户名&lt;/p&gt;
+&lt;p&gt;找到 &lt;code&gt;.gitconfig&lt;/code&gt;  文件&lt;/p&gt;
+&lt;p&gt;先把以下代码复制粘贴进去，直接覆盖，原本的不要&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[user]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name = your github name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    email = your primary email address&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[credential &amp;quot;https://gitee.com&amp;quot;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    provider = generic&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[url &amp;quot;https://github.com&amp;quot;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    instead0f = git://github.com&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[filter &amp;quot;lfs&amp;quot;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    clean = git-lfs clean -- %f&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    smudge = git-lfs smudge -- %f&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    process = git-lfs filter-process&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    required = true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[core]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ignorecase = false# 是否不区分文件名大小写。false - 区分大小写&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    eol = lf&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    autocrlf = input&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    safecrlf = true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    longpaths = true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[http]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    proxy = socks5://127.0.0.1:10808 # 代理地址&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    sslVerify = false&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[https]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    proxy = socks5://127.0.0.1:10808&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    sslVerify = false&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;要修改的地方：&lt;/p&gt;
+&lt;p&gt;1、[user]&lt;/p&gt;
+&lt;p&gt;​	name = 你的 github 名称&lt;/p&gt;
+&lt;p&gt;​	email = 复制你 github 中以下图片位置中的字符串&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224232525054.png&#34; alt=&#34;image-20250224232525054&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、[http]、[https]&lt;/p&gt;
+&lt;p&gt;如果是用 Steam++（Watt) 加速，就要把 proxy&lt;strong&gt; 都&lt;/strong&gt;注释掉（或删掉）&lt;/p&gt;
+&lt;h2 id=&#34;将本地代码上传至github仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将本地代码上传至github仓库&#34;&gt;#&lt;/a&gt; 将本地代码上传至 github 仓库&lt;/h2&gt;
+&lt;h3 id=&#34;一-github-仓库创建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-github-仓库创建&#34;&gt;#&lt;/a&gt; 一、GitHub 仓库创建&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;新建仓库&lt;/strong&gt;&lt;br /&gt;
+登录 GitHub，点击右上角 &amp;quot;+&amp;quot; 选择 &amp;quot;New repository&amp;quot;，填写仓库名称（建议英文命名），选择公开（Public）或私有（Private）权限。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;二-本地代码仓库配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-本地代码仓库配置&#34;&gt;#&lt;/a&gt; 二、本地代码仓库配置&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;初始化 Git 仓库&lt;/strong&gt;&lt;br /&gt;
+在本地项目根目录打开终端，执行命令初始化仓库：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;下面的 vscode 中的图形化操作可参考目录：相关操作 -&amp;gt; 代码的提交 的以下部分，一样的，就是要绑定远程仓库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;添加文件至暂存区&lt;/strong&gt;&lt;br /&gt;
+使用以下命令添加全部文件（ &lt;code&gt;.&lt;/code&gt;  表示当前目录所有文件）：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;若需指定文件，替换 &lt;code&gt;.&lt;/code&gt;  为文件名即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提交代码至本地仓库&lt;/strong&gt;&lt;br /&gt;
+提交时需附加描述信息：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &lt;span class=&#34;string&#34;&gt;&amp;quot;Initial commit: project setup&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;三-关联远程仓库并推送&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-关联远程仓库并推送&#34;&gt;#&lt;/a&gt; 三、关联远程仓库并推送&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;绑定远程仓库地址&lt;/strong&gt;&lt;br /&gt;
+将 GitHub 仓库 URL 关联到本地（替换 URL 为实际地址）：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git remote add origin https://github.com/username/repo.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;推送代码至 GitHub&lt;/strong&gt;&lt;br /&gt;
+ 执行强制推送（适用于全新仓库）：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git push -u origin main&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：GitHub 默认主分支为 &lt;code&gt;main&lt;/code&gt; ，若本地分支名称为 &lt;code&gt;master&lt;/code&gt; ，需通过 &lt;code&gt;git branch -M main&lt;/code&gt;  重命名分支后再推送。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;将团队的小伙伴拉入仓库中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将团队的小伙伴拉入仓库中&#34;&gt;#&lt;/a&gt; 将团队的小伙伴拉入仓库中&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224222718963.png&#34; alt=&#34;image-20250224222718963&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;仓库的拉取clone&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仓库的拉取clone&#34;&gt;#&lt;/a&gt; 仓库的拉取（clone）&lt;/h2&gt;
+&lt;p&gt;1、在你要拉取的 github 仓库页面中复制 HTTPS&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224214659450.png&#34; alt=&#34;image-20250224214659450&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、在 vscode 中，点击克隆 git 仓库，把复制的粘贴上去，回车&lt;/p&gt;
+&lt;p&gt;选择一个地方存储你拉取的仓库，可以在合适的地方新建一个文件夹，即可&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224214806781.png&#34; alt=&#34;image-20250224214806781&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;相关操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#相关操作&#34;&gt;#&lt;/a&gt; 相关操作&lt;/h2&gt;
+&lt;h3 id=&#34;创建一个分支create-branch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建一个分支create-branch&#34;&gt;#&lt;/a&gt; 创建一个分支（create branch）&lt;/h3&gt;
+&lt;p&gt;拉下一个新的项目，第一件事就是创建一个新的分支，并切换到该分支&lt;/p&gt;
+&lt;p&gt;1、找到 Branches&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215711907.png&#34; alt=&#34;image-20250224215711907&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、输入新分支的名字，回车，并选择创建和转换到该分支&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215823047.png&#34; alt=&#34;image-20250224215823047&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215939181.png&#34; alt=&#34;image-20250224215939181&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;代码的提交commit&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码的提交commit&#34;&gt;#&lt;/a&gt; 代码的提交（commit）&lt;/h3&gt;
+&lt;p&gt;自己提交代码前，应该是先 fetch+pull 这个 main 分支（主分支）到本地，然后在本地 merge main 分支到自己分支，最后再把代码更改 commit 到自己的分支&lt;/p&gt;
+&lt;p&gt;这里的提交，是本地代码的提交，提交后，代码仍在本地&lt;/p&gt;
+&lt;p&gt;每当完成一个功能时，差不多就要提交一次，提交一次不代表就要立马推送 / 请求合并，根据具体情况&lt;/p&gt;
+&lt;p&gt;1、暂存&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215135696.png&#34; alt=&#34;image-20250224215135696&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、在 “提交” 上面的框中写上本次提交的备注，正式的会有以下规范：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/20250212-110750.jpg&#34; alt=&#34;(gitImg/20250212-110750.jpg)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215333507.png&#34; alt=&#34;image-20250224215333507&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;3、点击提交&lt;/p&gt;
+&lt;h3 id=&#34;代码的推送push&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码的推送push&#34;&gt;#&lt;/a&gt; 代码的推送（Push）&lt;/h3&gt;
+&lt;p&gt;将本地提交的代码推送到云端（远程），这样全部成员都能看到你分支的代码&lt;/p&gt;
+&lt;p&gt;注意在自己的分支&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224220347135.png&#34; alt=&#34;image-20250224220347135&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;发送合并请求pr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#发送合并请求pr&#34;&gt;#&lt;/a&gt; 发送合并请求（PR）&lt;/h3&gt;
+&lt;p&gt;1、在自己的分支，点击 Create Pull Request&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224220511909.png&#34; alt=&#34;image-20250224220511909&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、跳转页面到浏览器，创建请求&lt;/p&gt;
+&lt;p&gt;可以选择负责代码合并的人（reviewer）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224223029908.png&#34; alt=&#34;image-20250224223029908&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224220704276.png&#34; alt=&#34;image-20250224220704276&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;3、处理合并请求，被选择负责代码合并的人会在 github 的邮箱中看到请求信息&lt;/p&gt;
+&lt;p&gt;如果代码比较简单，自己可以判断是否可以合并，就可以不选择，直接点合并&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224223127743.png&#34; alt=&#34;image-20250224223127743&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;拉取更新的代码fetch-pull&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#拉取更新的代码fetch-pull&#34;&gt;#&lt;/a&gt; 拉取更新的代码（fetch、pull）&lt;/h3&gt;
+&lt;p&gt;1、main 主干那里点 fetch&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224223421935.png&#34; alt=&#34;image-20250224223421935&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224223504378.png&#34; alt=&#34;image-20250224223504378&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;将主分支合并到自己分支&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将主分支合并到自己分支&#34;&gt;#&lt;/a&gt; 将主分支合并到自己分支&lt;/h3&gt;
+&lt;p&gt;拉取完主分支后，需要更新自己的分支&lt;/p&gt;
+&lt;p&gt;就右键主分支，找到 merge 开头的，前提是确保当前是在自己分支&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224235429154.png&#34; alt=&#34;image-20250224235429154&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://aura-hy.github.io/2025/02/25/hello-world/</guid>
             <title>Hello World</title>
