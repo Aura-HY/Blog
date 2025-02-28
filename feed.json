@@ -1,10 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-<<<<<<< HEAD
-    "title": "Hexo",
-=======
     "title": null,
->>>>>>> 0498441 (图床配置完成+自定义的图片)
     "subtitle": "",
     "icon": "http://aura-hy.github.io/images/favicon.ico",
     "description": "",
