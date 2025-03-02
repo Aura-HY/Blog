@@ -3,23 +3,24 @@
     <channel>
         <title></title>
         <subtitle></subtitle>
-        <icon>https://www.ssshyoo.top/images/favicon.ico</icon>
-        <link>https://www.ssshyoo.top</link>
+        <icon>http://www.ssshyoo.top/images/favicon.ico</icon>
+        <link>http://www.ssshyoo.top</link>
         <author>
-          <name>Aura-hy</name>
+          <name>Aura-HY</name>
         </author>
         <description></description>
         <language>en</language>
         <pubDate>Sun, 02 Mar 2025 16:01:46 +0800</pubDate>
         <lastBuildDate>Sun, 02 Mar 2025 16:01:46 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://www.ssshyoo.top/2025/03/02/Shoka%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E8%A1%A5%E5%85%85/</guid>
+            <guid isPermalink="true">http://www.ssshyoo.top/2025/03/02/Shoka%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E8%A1%A5%E5%85%85/</guid>
             <title>Shoka主题博客补充</title>
-            <link>https://www.ssshyoo.top/2025/03/02/Shoka%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E8%A1%A5%E5%85%85/</link>
+            <link>http://www.ssshyoo.top/2025/03/02/Shoka%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E8%A1%A5%E5%85%85/</link>
             <pubDate>Sun, 02 Mar 2025 16:01:46 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;这里小小汇总了一下搭建 Shoka 主题博客时可能会用到的参考资料，希望能帮到&lt;/p&gt;
 &lt;h1 id=&#34;shoka主题博客补充&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka主题博客补充&#34;&gt;#&lt;/a&gt; Shoka 主题博客补充&lt;/h1&gt;
 &lt;h2 id=&#34;shokax-主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shokax-主题&#34;&gt;#&lt;/a&gt; ShokaX 主题&lt;/h2&gt;
+&lt;p&gt;我用排除法发现，如果文章全是精选文章，首页就会无法正常显示&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;Hexo 主题 Shoka &amp;amp; multi-markdown-it 渲染器使用说明 - Theme Shoka Documentation - 二进制杂谈 - 计算机科学 | Yume Shoka = 有夢書架 = 吾乃天，壶中之天&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;官方文档&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmthaXRha3UueHl6Lw==&#34;&gt; Hexo-theme-ShokaX&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;图床配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图床配置&#34;&gt;#&lt;/a&gt; 图床配置&lt;/h2&gt;
@@ -69,12 +70,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.ssshyoo.top/2025/02/28/tool/git-know/GitUse/</guid>
+            <guid isPermalink="true">http://www.ssshyoo.top/2025/02/28/tool/git-know/GitUse/</guid>
             <title>Git的配置与VS图形化的简单使用</title>
-            <link>https://www.ssshyoo.top/2025/02/28/tool/git-know/GitUse/</link>
-            <category term="工具使用" scheme="https://www.ssshyoo.top/categories/tool/" />
-            <category term="git知识" scheme="https://www.ssshyoo.top/categories/tool/git-know/" />
-            <category term="Git使用" scheme="https://www.ssshyoo.top/categories/tool/git-know/Git%E4%BD%BF%E7%94%A8/" />
+            <link>http://www.ssshyoo.top/2025/02/28/tool/git-know/GitUse/</link>
+            <category term="工具使用" scheme="http://www.ssshyoo.top/categories/tool/" />
+            <category term="git知识" scheme="http://www.ssshyoo.top/categories/tool/git-know/" />
             <pubDate>Fri, 28 Feb 2025 13:53:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;git-使用图形化简单教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-使用图形化简单教程&#34;&gt;#&lt;/a&gt; Git 使用图形化简单教程&lt;/h1&gt;
 &lt;h2 id=&#34;git-配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-配置&#34;&gt;#&lt;/a&gt; Git 配置&lt;/h2&gt;
@@ -183,10 +183,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.ssshyoo.top/2024/12/21/knowledgeGraph/zeroToOne/</guid>
+            <guid isPermalink="true">http://www.ssshyoo.top/2024/12/21/knowledgeGraph/zeroToOne/</guid>
             <title>从零开始的知识图谱</title>
-            <link>https://www.ssshyoo.top/2024/12/21/knowledgeGraph/zeroToOne/</link>
-            <category term="知识图谱" scheme="https://www.ssshyoo.top/categories/knowledgeGraph/" />
+            <link>http://www.ssshyoo.top/2024/12/21/knowledgeGraph/zeroToOne/</link>
+            <category term="知识图谱" scheme="http://www.ssshyoo.top/categories/knowledgeGraph/" />
             <pubDate>Sat, 21 Dec 2024 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;知识图谱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#知识图谱&#34;&gt;#&lt;/a&gt; 知识图谱&lt;/h1&gt;
 &lt;h2 id=&#34;安装neo4j图数据库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装neo4j图数据库&#34;&gt;#&lt;/a&gt; 安装 neo4j 图数据库&lt;/h2&gt;
@@ -279,9 +279,9 @@ neo4j uninstall-service
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.ssshyoo.top/2024/08/07/openCV%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/</guid>
+            <guid isPermalink="true">http://www.ssshyoo.top/2024/08/07/openCV%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/</guid>
             <title>openCV图片和视频处理</title>
-            <link>https://www.ssshyoo.top/2024/08/07/openCV%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/</link>
+            <link>http://www.ssshyoo.top/2024/08/07/openCV%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/</link>
             <pubDate>Wed, 07 Aug 2024 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;opencvqt&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opencvqt&#34;&gt;#&lt;/a&gt; OpenCV+QT&lt;/h1&gt;
 &lt;h2 id=&#34;文件项目配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件项目配置&#34;&gt;#&lt;/a&gt; 文件项目配置&lt;/h2&gt;
