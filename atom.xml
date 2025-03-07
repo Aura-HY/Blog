@@ -133,6 +133,13 @@
 &lt;p&gt;2、在 vscode 中，点击克隆 git 仓库，把复制的粘贴上去，回车&lt;/p&gt;
 &lt;p&gt;选择一个地方存储你拉取的仓库，可以在合适的地方新建一个文件夹，即可&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224214806781.png&#34; alt=&#34;image-20250224214806781&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;点击之后会跳转到浏览器进行 github 账户登录验证，输入账号的密码就行，有的登录过 github 会自动进行账号身份识别，选择用户就可以了，选择完之后就可以看到我们创建的仓库了，点击需要添加的库，输入你的仓库名字，仓库就配置完成了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;通过ssh拉取仓库clone&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过ssh拉取仓库clone&#34;&gt;#&lt;/a&gt; 通过 ssh 拉取仓库（clone）&lt;/h2&gt;
+&lt;p&gt;如果通过 https 拉取仓库会卡在 github 账户登录验证那一块的话，就转用 ssh&lt;/p&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Jpbl9uaUIvYXJ0aWNsZS9kZXRhaWxzLzEzNTkxNTczOA==&#34;&gt;vscode 如何连接 github/gitee 远程仓库详细步骤（ssh+https）最全最详细_vscode github-CSDN 博客&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;相关操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#相关操作&#34;&gt;#&lt;/a&gt; 相关操作&lt;/h2&gt;
 &lt;h3 id=&#34;创建一个分支create-branch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建一个分支create-branch&#34;&gt;#&lt;/a&gt; 创建一个分支（create branch）&lt;/h3&gt;
 &lt;p&gt;拉下一个新的项目，第一件事就是创建一个新的分支，并切换到该分支&lt;/p&gt;
