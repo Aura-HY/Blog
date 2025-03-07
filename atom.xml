@@ -127,7 +127,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;将团队的小伙伴拉入仓库中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将团队的小伙伴拉入仓库中&#34;&gt;#&lt;/a&gt; 将团队的小伙伴拉入仓库中&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224222718963.png&#34; alt=&#34;image-20250224222718963&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;仓库的拉取clone&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仓库的拉取clone&#34;&gt;#&lt;/a&gt; 仓库的拉取（clone）&lt;/h2&gt;
+&lt;h2 id=&#34;通过https拉取仓库clone&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过https拉取仓库clone&#34;&gt;#&lt;/a&gt; 通过 https 拉取仓库（clone）&lt;/h2&gt;
 &lt;p&gt;1、在你要拉取的 github 仓库页面中复制 HTTPS&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224214659450.png&#34; alt=&#34;image-20250224214659450&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2、在 vscode 中，点击克隆 git 仓库，把复制的粘贴上去，回车&lt;/p&gt;
