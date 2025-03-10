@@ -141,8 +141,12 @@
 &lt;p&gt;参考：&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Jpbl9uaUIvYXJ0aWNsZS9kZXRhaWxzLzEzNTkxNTczOA==&#34;&gt;vscode 如何连接 github/gitee 远程仓库详细步骤（ssh+https）最全最详细_vscode github-CSDN 博客&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;相关操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#相关操作&#34;&gt;#&lt;/a&gt; 相关操作&lt;/h2&gt;
+&lt;p&gt;如果在你的 VScode 中，并没有下面图片中的这些图形，可以在这里找到对应操作，不过要注意的是，你是&lt;strong&gt;在什么分支做的操作&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250310105819735.png&#34; alt=&#34;image-20250310105819735&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么要创建分支&lt;/strong&gt;&lt;br /&gt;
+这就好比你考试的时候，有一张试卷和一张答题卡，你最终要交的是答题卡，并且你只有一张，为了卷面整洁好看，你只能拿一张草稿纸，把不确定的东西在草纸上写好，再移到答题卡上&lt;/p&gt;
 &lt;h3 id=&#34;创建一个分支create-branch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建一个分支create-branch&#34;&gt;#&lt;/a&gt; 创建一个分支（create branch）&lt;/h3&gt;
-&lt;p&gt;拉下一个新的项目，第一件事就是创建一个新的分支，并切换到该分支&lt;/p&gt;
+&lt;p&gt;拉下一个新的项目，&lt;strong&gt;第一件事&lt;/strong&gt;就是创建一个新的分支，并切换到该分支&lt;/p&gt;
 &lt;p&gt;1、找到 Branches&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215711907.png&#34; alt=&#34;image-20250224215711907&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2、输入新分支的名字，回车，并选择创建和转换到该分支&lt;/p&gt;
@@ -150,7 +154,7 @@
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215939181.png&#34; alt=&#34;image-20250224215939181&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;代码的提交commit&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码的提交commit&#34;&gt;#&lt;/a&gt; 代码的提交（commit）&lt;/h3&gt;
 &lt;p&gt;自己提交代码前，应该是先 fetch+pull 这个 main 分支（主分支）到本地，然后在本地 merge main 分支到自己分支，最后再把代码更改 commit 到自己的分支&lt;/p&gt;
-&lt;p&gt;这里的提交，是本地代码的提交，提交后，代码仍在本地&lt;/p&gt;
+&lt;p&gt;这里的提交，是本地代码的提交，提交后，&lt;strong&gt;代码仍在本地&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;每当完成一个功能时，差不多就要提交一次，提交一次不代表就要立马推送 / 请求合并，根据具体情况&lt;/p&gt;
 &lt;p&gt;1、暂存&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224215135696.png&#34; alt=&#34;image-20250224215135696&#34; /&gt;&lt;/p&gt;
@@ -181,6 +185,16 @@
 &lt;p&gt;拉取完主分支后，需要更新自己的分支&lt;/p&gt;
 &lt;p&gt;就右键主分支，找到 merge 开头的，前提是确保当前是在自己分支&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224235429154.png&#34; alt=&#34;image-20250224235429154&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h3&gt;
+&lt;p&gt;大体流程为：修改代码 -&amp;gt; 暂存更改 -&amp;gt; 填写提交信息 -&amp;gt; 提交代码 -&amp;gt; 推送 -&amp;gt; 发送合并请求&lt;br /&gt;
+至此只要等待你的代码通过审核就可以合并到主分支了&lt;br /&gt;
+ -&amp;gt; 同意合并请求&lt;br /&gt;
+至此你的代码就到了主分支&lt;/p&gt;
+&lt;p&gt;当远程有更新了（主分支更新了）&lt;br /&gt;
+---&amp;gt; 拉取更新的代码&lt;br /&gt;
+至此你就可以转到主分支看更新的代码&lt;br /&gt;
+ --&amp;gt; 将主分支合并到自己分支&lt;br /&gt;
+至此你就将更新的代码 “复制” 到了自己的分支，在自己分支也能看到更新的代码&lt;/p&gt;
 </content>
         <category term="工具使用" scheme="http://www.ssshyoo.top/categories/tool/" />
         <category term="git知识" scheme="http://www.ssshyoo.top/categories/tool/git-know/" />
