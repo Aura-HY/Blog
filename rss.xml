@@ -86,6 +86,7 @@
 &lt;p&gt;1、[user]&lt;/p&gt;
 &lt;p&gt;​	name = 你的 github 名称&lt;/p&gt;
 &lt;p&gt;​	email = 复制你 github 中以下图片位置中的字符串&lt;/p&gt;
+&lt;p&gt;（找不到的同学要往下滑一下，认真找一下类似的字符串，反正就在这一行）&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224232525054.png&#34; alt=&#34;image-20250224232525054&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2、[http]、[https]&lt;/p&gt;
 &lt;p&gt;如果是用 Steam++（Watt) 加速，就要把 proxy&lt;strong&gt; 都&lt;/strong&gt;注释掉（或删掉）&lt;/p&gt;
@@ -132,6 +133,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;将团队的小伙伴拉入仓库中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将团队的小伙伴拉入仓库中&#34;&gt;#&lt;/a&gt; 将团队的小伙伴拉入仓库中&lt;/h2&gt;
+&lt;p&gt;该操作是为了给团队的小伙伴权限&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250224222718963.png&#34; alt=&#34;image-20250224222718963&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;通过https拉取仓库clone&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过https拉取仓库clone&#34;&gt;#&lt;/a&gt; 通过 https 拉取仓库（clone）&lt;/h2&gt;
 &lt;p&gt;1、在你要拉取的 github 仓库页面中复制 HTTPS&lt;/p&gt;
@@ -201,6 +203,14 @@
 至此你就可以转到主分支看更新的代码&lt;br /&gt;
  --&amp;gt; 将主分支合并到自己分支&lt;br /&gt;
 至此你就将更新的代码 “复制” 到了自己的分支，在自己分支也能看到更新的代码&lt;/p&gt;
+&lt;h2 id=&#34;报错及对应解决&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报错及对应解决&#34;&gt;#&lt;/a&gt; 报错及对应解决&lt;/h2&gt;
+&lt;p&gt;以下解决不了就去百度&lt;/p&gt;
+&lt;h3 id=&#34;permission-denied&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#permission-denied&#34;&gt;#&lt;/a&gt; Permission denied&lt;/h3&gt;
+&lt;p&gt;检查文件夹是否有权限写入，可以另外新建一个文件夹，再操作&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250313221445464.png&#34; alt=&#34;image-20250313221445464&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;git-fatal-unable-to-access&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-fatal-unable-to-access&#34;&gt;#&lt;/a&gt; Git: fatal: unable to access&lt;/h3&gt;
+&lt;p&gt;检查.gitconfig 文件是否有正确修改，对照本博客目录下 &amp;quot;Git 配置&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Aura-HY/blogImage@main/img/image-20250314111947091.png&#34; alt=&#34;image-20250314111947091&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
